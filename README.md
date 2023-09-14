@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/xSarscov/product-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://graceful-kringle-88a2fe.netlify.app)
+- Solution URL: [https://github.com/xSarscov/product-preview-card-component-main]
+- Live Site URL: [https://graceful-kringle-88a2fe.netlify.app]
 
 ## My process
 
