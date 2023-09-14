@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/xSarscov/product-preview-card-component-main]
-- Live Site URL: [https://graceful-kringle-88a2fe.netlify.app]
+- [Solution](https://github.com/xSarscov/product-preview-card-component-main)
+- [Live Site](https://graceful-kringle-88a2fe.netlify.app)
 
 ## My process
 
@@ -39,5 +39,5 @@ Users should be able to:
 - CSS Grid
 
 ## Author
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/xSarscov)
+- Frontend Mentor - [@xSarscov](https://www.frontendmentor.io/profile/xSarscov)
 - IG - [@ernestox91](https://www.instagram.com/ernestox91)
