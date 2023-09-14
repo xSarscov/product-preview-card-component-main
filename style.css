@@ -1,0 +1,118 @@
+:root {
+    --bg: hsl(30, 38%, 92%);
+    --body-fs: 14px;
+    --fw-bold: 700;
+    --fw-regular: 500;
+    --ff-frances: "Fraunces", serif;
+    --ff-montse: "Montserrat", sans-serif;
+    --button-price-clr: hsl(158, 36%, 37%);
+    --title-clr: hsl(212, 21%, 14%);
+    --text-clr: hsl(228, 12%, 48%);
+    --bg-card: hsl(0, 0%, 100%);
+    --hover-clr: hsl(158, 36%, 20%);
+}
+
+/* Desktop design */
+
+body {
+    background: var(--bg);
+    font-size: var(--body-fs);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+}
+
+.card {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 450px;
+    background: var(--bg-card);
+    border-radius: 10px;
+}
+
+.card__img img{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.card__info {
+    display: grid;
+    grid-template-rows: min-content max-content min-content 1fr min-content;
+    padding: 30px;
+    gap: 1rem;
+}
+
+.card__tag {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--text-clr);
+    font-family: var(--ff-montse);
+}
+
+.card__title {
+    color: var(--title-clr);
+    font-family: var(--ff-frances);
+    font-size: 2rem;
+    margin: 0;
+}
+
+.card__text {
+    color: var(--text-clr);
+    font-family: var(--ff-montse);
+    line-height: 1.5;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.card__price {
+    color: var(--button-price-clr);
+    font-family: var(--ff-frances);
+    font-weight: var(--fw-bold);
+    font-size: 2rem;
+}
+
+
+.card__discount {
+    color: var(--text-clr);
+    text-decoration: line-through;
+    font-family: var(--ff-montse);
+    font-weight: var(--fw-regular);
+}
+
+.card__button {
+    background: var(--button-price-clr);
+    border: none;
+    color: var(--bg-card);
+    font-family: var(--ff-montse);
+    font-weight: var(--fw-bold);
+    border-radius: 10px;
+    padding: 1rem ;
+    display: flex;
+    gap: .7rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__button:hover {
+    background: var(--hover-clr);
+    cursor: pointer;
+}
+
+/* Mobile design */
+@media screen and (max-width: 600px) {
+    .card {
+        grid-template-columns: min-content;
+        grid-template-rows: min-content 1fr;
+    }
+    
+    .card__img img{
+        border-radius: 10px 10px 0px 0px;
+        height: 100%;
+    }
+    
+}
